@@ -1,0 +1,145 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Автоподбор от Даниэля Кологривого</title>
+    <style>
+        body { font-family: 'Segoe UI', sans-serif; margin: 0; background-color: #f7f7f7; color: #333; }
+        header { background-color: #1f1f1f; color: white; padding: 40px 20px; text-align: center; }
+        header h1 { margin: 0; font-size: 32px; }
+        header p { margin-top: 10px; font-size: 18px; }
+        section { padding: 40px 20px; max-width: 960px; margin: auto; }
+        h2 { font-size: 24px; color: #111; }
+        ul { padding-left: 20px; }
+        .price-table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+        .price-table th, .price-table td { border: 1px solid #ddd; padding: 12px; text-align: left; }
+        .contact { background-color: #efefef; padding: 20px; text-align: center; }
+        .contact a { text-decoration: none; color: #0077cc; font-weight: bold; }
+        footer { text-align: center; padding: 20px; font-size: 14px; color: #888; }
+
+        .carousel-container {
+            display: flex;
+            overflow-x: auto;
+            gap: 10px;
+            scroll-snap-type: x mandatory;
+            -webkit-overflow-scrolling: touch;
+            padding: 10px 0;
+        }
+
+        .carousel-container img {
+            flex: 0 0 auto;
+            width: 85%;
+            max-width: 350px;
+            height: auto;
+            border-radius: 8px;
+            scroll-snap-align: start;
+        }
+
+        @media (max-width: 600px) {
+            header h1 { font-size: 24px; }
+            header p { font-size: 16px; }
+            h2 { font-size: 20px; }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Автоподбор от Даниэля Кологривого</h1>
+    <p>Найду для вас идеальный автомобиль — честно, безопасно и без переплат</p>
+</header>
+
+<section>
+    <h2>Что входит в автоподбор:</h2>
+    <ul>
+        <li>Анализ задач, подбор под бюджет</li>
+        <li>Поиск авто по всем базам (Авито, Автору и т.д.)</li>
+        <li>Проверка по VIN, истории и юридическая чистота</li>
+        <li>Диагностика кузова и технического состояния</li>
+        <li>Фото/видеоотчёты, рекомендации</li>
+        <li>Сопровождение сделки, помощь с торгом</li>
+    </ul>
+</section>
+
+<section>
+    <h2>Пакеты услуг:</h2>
+    <table class="price-table">
+        <tr>
+            <th>Пакет</th>
+            <th>Описание</th>
+            <th>Цена</th>
+        </tr>
+        <tr>
+            <td>Экспресс-проверка</td>
+            <td>Проверка 1 авто по VIN и визуальный осмотр</td>
+            <td>от 3 500 ₽</td>
+        </tr>
+        <tr>
+            <td>Выездная диагностика</td>
+            <td>Полная проверка авто перед покупкой</td>
+            <td>от 7 000 ₽</td>
+        </tr>
+        <tr>
+            <td>Подбор под ключ</td>
+            <td>Полный цикл: от поиска до покупки</td>
+            <td>от 35 000 ₽</td>
+        </tr>
+    </table>
+</section>
+
+<section>
+    <h2>Почему выбирают меня:</h2>
+    <ul>
+        <li>Без посредников — работаю лично</li>
+        <li>Прозрачность на всех этапах</li>
+        <li>Профессиональное оборудование</li>
+        <li>Опыт, честность, внимание к деталям</li>
+    </ul>
+</section>
+
+<section>
+    <h2>Примеры подборов: Москва</h2>
+    <div class="carousel-container">
+        <img src="C1FEE00A-DB68-454E-B923-DC403E8014C1.jpeg">
+        <img src="06043E5B-B174-4047-9F18-B702A757D1B0.jpeg">
+        <img src="993FEEF2-BC24-4EFE-8A4C-62737748A9D1.jpeg">
+        <img src="8FC9C16E-6715-4B7C-B4F7-49FD6D9A98EC.jpeg">
+        <img src="D0C69C91-DCCF-43B7-9DF1-4B63F0C68A50.jpeg">
+    </div>
+</section>
+
+<section>
+    <h2>Примеры подборов: ОАЭ (Эмираты)</h2>
+    <div class="carousel-container">
+        <img src="4D9BCC57-55B0-4C17-8D83-0C25F0D8E5E0.jpeg">
+        <img src="458EBC4E-9BC4-4580-AB34-DA61AC21172D.jpeg">
+        <img src="B4E5F2B7-E6BD-40C0-B61B-E6CED4BB0DB4.jpeg">
+    </div>
+</section>
+
+<section>
+    <h2>Коммерческий транспорт</h2>
+    <div class="carousel-container">
+        <img src="F93ACA7C-9437-40D2-A6CC-753ABB36570F.jpeg">
+        <img src="737F7FA9-1EC1-4CFD-9D5C-EC74515F98F3.jpeg">
+    </div>
+</section>
+
+<section>
+    <h2>География подбора:</h2>
+    <p>Москва и область, Эмираты (ОАЭ), регионы РФ и страны СНГ — по договорённости.</p>
+</section>
+
+<section class="contact">
+    <h2>Связаться со мной:</h2>
+    <p>Пишите в Telegram 👉 <a href="https://t.me/avtopodborDK" target="_blank">@avtopodborDK</a></p>
+</section>
+
+<footer>
+    © 2025 Автоподбор от Даниэля Кологривого
+</footer>
+
+</body>
+</html>
